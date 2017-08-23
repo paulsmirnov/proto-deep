@@ -1,6 +1,9 @@
 # proto-deep
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/paulsmirnov/proto-deep.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/paulsmirnov/proto-deep.svg?branch=dev)](https://travis-ci.org/paulsmirnov/proto-deep)
+[![dependencies Status](https://david-dm.org/paulsmirnov/proto-deep/dev/status.svg)](https://david-dm.org/paulsmirnov/proto-deep/dev)
+[![devDependencies Status](https://david-dm.org/paulsmirnov/proto-deep/dev/dev-status.svg)](https://david-dm.org/paulsmirnov/proto-deep/dev?type=dev)
 
 A function to create a deeply prototype-inherited object.
 
