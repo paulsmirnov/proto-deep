@@ -1,5 +1,7 @@
 # proto-deep
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/paulsmirnov/proto-deep.svg)](https://greenkeeper.io/)
+
 A function to create a deeply prototype-inherited object.
 
 > I'm sorry, this project is **for demonstration purpose only.** It serves me as a playground
