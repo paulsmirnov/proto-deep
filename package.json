@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint **/*.js",
     "lint-fix": "eslint **/*.js --fix",
-    "test": "mocha",
+    "test": "nyc --reporter=text --reporter=html mocha",
     "prebuild": "npm run lint && npm run test",
     "build": "rollup -c && uglifyjs dist/proto-deep.js -cm --comments Copyright > dist/proto-deep.min.js",
     "version": "npm run build && git add -A dist"
@@ -38,6 +38,7 @@
     "eslint-config-airbnb-base": "^11.3.1",
     "eslint-plugin-import": "^2.7.0",
     "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
     "rollup": "^0.48.2",
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-json": "^2.3.0",
