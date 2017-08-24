@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint **/*.js",
     "lint-fix": "eslint **/*.js --fix",
-    "test": "nyc --reporter=text --reporter=html mocha",
+    "test": "nyc --reporter=text-summary --reporter=lcov mocha",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "prebuild": "npm run lint && npm run test",
     "build": "rollup -c && uglifyjs dist/proto-deep.js -cm --comments Copyright > dist/proto-deep.min.js",
