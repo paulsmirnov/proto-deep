@@ -12,5 +12,6 @@ module.exports = {
   rules: {
     'linebreak-style': ['warn', os.EOL === '\n' ? 'unix' : 'windows'],
     'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
+    'import/extensions': 'off',
   },
 };

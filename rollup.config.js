@@ -1,6 +1,6 @@
 import rollupPluginBabel from 'rollup-plugin-babel';
 import rollupPluginJson from 'rollup-plugin-json';
-import babelrcRollup from 'babelrc-rollup'; // eslint-disable-line import/extensions
+import babelrcRollup from 'babelrc-rollup';
 import { version, author } from './package.json';
 
 export default {
