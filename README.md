@@ -9,6 +9,7 @@
 [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=paulsmirnov-github.proto-deep:dev)](https://sonarcloud.io/dashboard/index/paulsmirnov-github.proto-deep:dev)
 [![Coverage Status](https://coveralls.io/repos/github/paulsmirnov/proto-deep/badge.svg?branch=dev)](https://coveralls.io/github/paulsmirnov/proto-deep?branch=dev)
 [![codecov](https://codecov.io/gh/paulsmirnov/proto-deep/branch/dev/graph/badge.svg)](https://codecov.io/gh/paulsmirnov/proto-deep)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/b9db5632a69745eabce9bb7409bc2488)](https://www.codacy.com/app/paulsmirnov/proto-deep?utm_source=github.com&utm_medium=referral&utm_content=paulsmirnov/proto-deep&utm_campaign=Badge_Coverage)
 
 A function to create a deeply prototype-inherited object.
 
