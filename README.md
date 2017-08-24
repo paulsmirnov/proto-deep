@@ -6,6 +6,7 @@
 [![devDependencies Status](https://david-dm.org/paulsmirnov/proto-deep/dev/dev-status.svg)](https://david-dm.org/paulsmirnov/proto-deep/dev?type=dev)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b9db5632a69745eabce9bb7409bc2488)](https://www.codacy.com/app/paulsmirnov/proto-deep?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=paulsmirnov/proto-deep&amp;utm_campaign=Badge_Grade)
 [![Code Climate](https://codeclimate.com/github/paulsmirnov/proto-deep/badges/gpa.svg)](https://codeclimate.com/github/paulsmirnov/proto-deep)
+[![Coverage Status](https://coveralls.io/repos/github/paulsmirnov/proto-deep/badge.svg?branch=dev)](https://coveralls.io/github/paulsmirnov/proto-deep?branch=dev)
 
 A function to create a deeply prototype-inherited object.
 

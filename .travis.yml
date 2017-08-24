@@ -14,3 +14,5 @@ after_script:
   - greenkeeper-lockfile-upload
 script:
   - npm run build
+after_success:
+  - npm run coveralls

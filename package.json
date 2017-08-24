@@ -9,6 +9,7 @@
     "lint": "eslint **/*.js",
     "lint-fix": "eslint **/*.js --fix",
     "test": "nyc --reporter=text --reporter=html mocha",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "prebuild": "npm run lint && npm run test",
     "build": "rollup -c && uglifyjs dist/proto-deep.js -cm --comments Copyright > dist/proto-deep.min.js",
     "version": "npm run build && git add -A dist"
@@ -33,6 +34,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babelrc-rollup": "^3.0.0",
     "chai": "^4.1.1",
+    "coveralls": "^2.13.1",
     "dirty-chai": "^2.0.1",
     "eslint": "^4.5.0",
     "eslint-config-airbnb-base": "^11.3.1",
