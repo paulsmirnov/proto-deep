@@ -9,6 +9,7 @@
 [![Codacy Badge](https://img.shields.io/codacy/grade/b9db5632a69745eabce9bb7409bc2488.svg)](https://www.codacy.com/app/paulsmirnov/proto-deep)
 [![Code Climate](https://codeclimate.com/github/paulsmirnov/proto-deep/badges/gpa.svg)](https://codeclimate.com/github/paulsmirnov/proto-deep)
 [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=paulsmirnov-github.proto-deep:dev)](https://sonarcloud.io/dashboard/index/paulsmirnov-github.proto-deep:dev)
+[![bitHound Overall Score](https://www.bithound.io/github/paulsmirnov/proto-deep/badges/score.svg)](https://www.bithound.io/github/paulsmirnov/proto-deep)
 
 [![Coverage Status](https://coveralls.io/repos/github/paulsmirnov/proto-deep/badge.svg?branch=dev)](https://coveralls.io/github/paulsmirnov/proto-deep?branch=dev)
 [![codecov](https://codecov.io/gh/paulsmirnov/proto-deep/branch/dev/graph/badge.svg)](https://codecov.io/gh/paulsmirnov/proto-deep)
