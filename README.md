@@ -1,11 +1,12 @@
 # proto-deep
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/paulsmirnov/proto-deep.svg)](https://greenkeeper.io/)
+[![npm version](https://img.shields.io/npm/v/proto-deep.svg)](https://www.npmjs.com/package/proto-deep)
 [![Build Status](https://travis-ci.org/paulsmirnov/proto-deep.svg?branch=dev)](https://travis-ci.org/paulsmirnov/proto-deep)
 [![dependencies Status](https://david-dm.org/paulsmirnov/proto-deep/dev/status.svg)](https://david-dm.org/paulsmirnov/proto-deep/dev)
 [![devDependencies Status](https://david-dm.org/paulsmirnov/proto-deep/dev/dev-status.svg)](https://david-dm.org/paulsmirnov/proto-deep/dev?type=dev)
+[![Greenkeeper badge](https://badges.greenkeeper.io/paulsmirnov/proto-deep.svg)](https://greenkeeper.io/)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b9db5632a69745eabce9bb7409bc2488)](https://www.codacy.com/app/paulsmirnov/proto-deep?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=paulsmirnov/proto-deep&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://img.shields.io/codacy/grade/b9db5632a69745eabce9bb7409bc2488.svg)](https://www.codacy.com/app/paulsmirnov/proto-deep)
 [![Code Climate](https://codeclimate.com/github/paulsmirnov/proto-deep/badges/gpa.svg)](https://codeclimate.com/github/paulsmirnov/proto-deep)
 [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=paulsmirnov-github.proto-deep:dev)](https://sonarcloud.io/dashboard/index/paulsmirnov-github.proto-deep:dev)
 
