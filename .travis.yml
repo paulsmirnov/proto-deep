@@ -28,3 +28,12 @@ after_success:
   - npm run codecov
   - npm run codacy
   - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
+deploy:
+  - provider: npm
+    skip_cleanup: true
+    email: "$NPM_EMAIL"
+    api_key: "$NPM_AUTH_TOKEN"
+    tag: latest
+    on:
+      tags: true
+      condition: "$TRAVIS_TAG =~ ^v\\d+\\.\\d+\.\\d+$"
