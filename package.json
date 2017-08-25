@@ -5,6 +5,11 @@
   "main": "dist/proto-deep.js",
   "module": "dist/proto-deep.module.js",
   "browser": "dist/proto-deep.min.js",
+  "files": [
+    "dist/proto-deep.js",
+    "dist/proto-deep.min.js",
+    "dist/proto-deep.module.js"
+  ],
   "scripts": {
     "lint": "eslint **/*.js",
     "lint-fix": "eslint **/*.js --fix",
