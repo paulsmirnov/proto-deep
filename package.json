@@ -1,6 +1,6 @@
 {
   "name": "proto-deep",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A function to create a deeply prototype-inherited object",
   "main": "dist/proto-deep.js",
   "module": "dist/proto-deep.module.js",
