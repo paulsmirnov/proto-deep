@@ -1,8 +1,8 @@
 dist: trusty
 language: node_js
 node_js:
-  - "6"
-  - "8"
+  - "lts/*"
+  - "node"
 cache:
   yarn: true
   directories:
@@ -37,5 +37,5 @@ deploy:
     tag: latest
     on:
       tags: true
-      node: "6"
+      node: "node"
       condition: $TRAVIS_TAG =~ ^v[0-9]+\.[0-9]+\.[0-9]+$
