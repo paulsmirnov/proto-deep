@@ -15,3 +15,8 @@ test_script:
   - node --version && npm --version
   - npm run ci
 build: off
+notifications:
+  - provider: Slack
+    on_build_success: false
+    incoming_webhook:
+      secure: osWQbJf4imIh5jMhkZW0RfHDY+fm5Uksv9CeOMJFyspir7LGCAtgE/9guCx+1jimN8mIhKxkwsdhpjnaGTHvOyMB5n2Ogu2thKkm5z7/5CY=
