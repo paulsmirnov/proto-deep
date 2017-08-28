@@ -1,5 +1,5 @@
-/* proto-deep v0.2.4 Copyright (c) 2017 Paul Smirnov */
-var version = "0.2.4";
+/* proto-deep v0.2.5 Copyright (c) 2017 Paul Smirnov */
+var version = "0.2.5";
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
   return typeof obj;
