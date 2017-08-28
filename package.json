@@ -19,6 +19,7 @@
     "codacy": "nyc report --reporter=text-lcov | codacy-coverage",
     "prebuild": "npm run lint && npm run test",
     "build": "rollup -c && uglifyjs dist/proto-deep.js -cm --comments Copyright > dist/proto-deep.min.js",
+    "ci": "npm run build",
     "version": "npm run build && git add -A dist"
   },
   "repository": "git+https://github.com/paulsmirnov/proto-deep.git",
