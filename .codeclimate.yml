@@ -14,3 +14,6 @@ ratings:
   - "src/**.js"
   - "test/**.js"
   - "examples/**.js"
+exclude_paths:
+- ".idea/"
+- "dist/"
