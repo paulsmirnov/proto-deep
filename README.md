@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/proto-deep.svg)](https://www.npmjs.com/package/proto-deep)
 [![Build Status](https://travis-ci.org/paulsmirnov/proto-deep.svg?branch=dev)](https://travis-ci.org/paulsmirnov/proto-deep)
+[![Build status](https://ci.appveyor.com/api/projects/status/mw0tf2ujvtelajh8/branch/dev?svg=true)](https://ci.appveyor.com/project/paulsmirnov/proto-deep/branch/dev)
 [![dependencies Status](https://david-dm.org/paulsmirnov/proto-deep/dev/status.svg)](https://david-dm.org/paulsmirnov/proto-deep/dev)
 [![devDependencies Status](https://david-dm.org/paulsmirnov/proto-deep/dev/dev-status.svg)](https://david-dm.org/paulsmirnov/proto-deep/dev?type=dev)
 [![Greenkeeper badge](https://badges.greenkeeper.io/paulsmirnov/proto-deep.svg)](https://greenkeeper.io/)
