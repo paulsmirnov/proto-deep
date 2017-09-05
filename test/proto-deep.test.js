@@ -39,8 +39,19 @@ describe('protoDeep()', () => {
     str,
     simpleObject,
   ];
-  const obj1 = { a: 1, b: { x: 2, y: { s: 'hello' }, z: [3, { p: 4, q: 5 }] } };
-  const obj2 = { a: 10, b: { x: 20, y: { s: 'bye' }, z: [30, { p: 40, q: 50, r: 60 }, 70], w: 80 }, c: 90 };
+  const obj1 = {
+    a: 1,
+    b: {
+      x: 2, y: { s: 'hello' }, z: [3, { p: 4, q: 5 }],
+    },
+  };
+  const obj2 = {
+    a: 10,
+    b: {
+      x: 20, y: { s: 'bye' }, z: [30, { p: 40, q: 50, r: 60 }, 70], w: 80,
+    },
+    c: 90,
+  };
 
   it('copies numbers / strings', () => {
     expect(protoDeep(num)).to.equal(num);
