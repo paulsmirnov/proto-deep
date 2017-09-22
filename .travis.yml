@@ -24,6 +24,7 @@ before_script:
 after_script:
   - greenkeeper-lockfile-upload
 script:
+  - git status
   - npm run ci
 after_success:
   - sonar-scanner
