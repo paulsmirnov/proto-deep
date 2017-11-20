@@ -1,17 +1,16 @@
-engines:
-  duplication:
-    enabled: true
-    config:
-      languages:
-      - javascript:
+version: "2"
+checks:
+  identical-code:
+    exclude_patterns:
+    - "**/*.test.js"
+  similar-code:
+    exclude_patterns:
+    - "**/*.test.js"
+plugins:
   eslint:
     enabled: true
   fixme:
     enabled: true
-
-ratings:
-  paths:
-  - "**.js"
-exclude_paths:
+exclude_patterns:
 - ".idea/"
 - "dist/"
