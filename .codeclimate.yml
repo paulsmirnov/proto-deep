@@ -1,16 +1,17 @@
-version: "2"
-checks:
-  identical-code:
-    exclude_patterns:
-    - "**/*.test.js"
-  similar-code:
-    exclude_patterns:
-    - "**/*.test.js"
-plugins:
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript:
   eslint:
     enabled: true
   fixme:
     enabled: true
-exclude_patterns:
+
+ratings:
+  paths:
+  - "**.js"
+exclude_paths:
 - ".idea/"
 - "dist/"
